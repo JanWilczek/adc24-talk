@@ -1,4 +1,4 @@
-# Bug-Free JUCE UI
+# Bug-Free JUCE UI: Structure Your GUI Code For Stability, Testability & Clean Architecture
 
 ## Jan Wilczek's Audio Developer Conference 2024 Companion Repo
 
