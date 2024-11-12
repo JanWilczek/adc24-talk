@@ -112,7 +112,7 @@ public:
   }
 
 private:
-  void updatePlot() { plot_.setValueForced(calculateMagnitudeResponsePlot()); }
+  void updatePlot() { plot_.postValueForced(calculateMagnitudeResponsePlot()); }
 
   [[nodiscard]] juce::Path calculateMagnitudeResponsePlot() const {
     juce::Path result;
